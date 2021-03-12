@@ -20,6 +20,7 @@ export const createPost = (post) => async (dispatch) => {
         dispatch({ type: 'CREATE' , payload: data })
     } catch (error) {
         console.log(error);
+        // console logging the error. i order to see what the catch method puts out as a message.
     }
 };
 
